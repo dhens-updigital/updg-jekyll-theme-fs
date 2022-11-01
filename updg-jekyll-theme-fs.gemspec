@@ -2,9 +2,9 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "updg-jekyll-theme-fs"
-  spec.version       = "0.1.1"
-  spec.authors       = [""]
-  spec.email         = [""]
+  spec.version       = "0.1.2"
+  spec.authors       = ["Dhens Betonio"]
+  spec.email         = ["rudenyl@updigitalgroup.com"]
 
   spec.summary       = "Simple UpDigitalGroup theme."
   spec.homepage      = "https://github.com/dhens-updigital/updg-jekyll-theme-fs"

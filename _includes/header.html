@@ -76,11 +76,11 @@
                 <meta property="position" content="1">
               </span>
               {%- if page.crumbs -%}
-                {% for crumb, pos in page.crumbs %}
+                {% for crumb in page.crumbs %}
                   <span>&nbsp;&raquo;&nbsp;</span>
                   <span property="itemListElement" typeof="ListItem">
                     <a property="item" typeof="WebPage" title="Go to {{ crumb.title }}." href="{{ crumb.link }}" class="underline"><span property="name">{{ crumb.title }}</span></a>
-                    <meta property="position" content="{{ pos + 1 }}">
+                    <meta property="position" content="{{ forloop.index + 1 }}">
                   </span>
                 {% endfor %}
               {%- endif -%}
